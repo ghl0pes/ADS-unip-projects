@@ -1,4 +1,4 @@
-# ADS-unip-projects
+# ADS - Unip Limeira - 2022
 Repositório destinado a organizar arquivos desenvolvidos no curso de Análise e Desenvolvimento de sistemas.
 
 ## 2º Semestre: ##
