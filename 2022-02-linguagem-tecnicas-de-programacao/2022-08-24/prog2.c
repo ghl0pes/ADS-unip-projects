@@ -3,6 +3,9 @@
 #include<math.h>
 
 int main() {
+	/*
+		Cálculo da função de segundo grau
+	*/
     int a, b, c;
     float delta, x1, x2;
 
@@ -26,4 +29,7 @@ int main() {
             printf("Delta negativo, portanto nao tem raiz!\n");
         }
     }
+    
+    system("pause");
+    return 0;
 }

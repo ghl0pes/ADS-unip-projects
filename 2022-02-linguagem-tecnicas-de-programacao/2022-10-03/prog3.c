@@ -1,13 +1,17 @@
-#include<stdio.h>    //biblioteca saida de dados
-#include<math.h>     //biblioteca matematica
-#include<stdlib.h>   //biblioteca padrao
+#include<stdio.h>
+#include<math.h>
+#include<stdlib.h>
 
-int main () {       //função principal
-	int kont=0;         //zerando o acumulador
+int main () {
+	/*
+		Revisão: atribuições dentro de um for loop
+	*/
+	
+	int kont=0;
 	int j;
 	
 	for(j=1; j<=10; j++){
-		kont=kont+j;     //nova atribuição
+		kont=kont+j;
 		
 		printf("\n kont=%d \n", kont);
 		

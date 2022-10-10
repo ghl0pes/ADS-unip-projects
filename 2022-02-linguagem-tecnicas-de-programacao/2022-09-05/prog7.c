@@ -1,6 +1,9 @@
 #include<stdio.h>
 
 int main() {
+	/*
+		Cálculo de fatorial com loop
+	*/
 	int main, i, fat;
 	
 	printf("Digite um numero para calcular fatorial: ");

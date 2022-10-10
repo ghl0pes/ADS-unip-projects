@@ -3,6 +3,10 @@
 
 
 int main() {
+	/*
+		Cálculo da exponencial
+	*/
+	
 	int i, x , fat = 1, limite = 5;
 	float soma = 1.00;
 	

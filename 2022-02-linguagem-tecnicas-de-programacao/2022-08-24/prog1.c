@@ -3,6 +3,11 @@
 #include<math.h>
 
 int main() {
+	/*
+		Programa que define se numero lido é par ou ímpar
+		Uso de funções condicionais	
+	*/
+	
     int n1, resto;
 
     printf("Digite um numero inteiro e diferente de zero: ");

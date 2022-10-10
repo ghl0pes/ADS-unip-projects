@@ -3,6 +3,11 @@
 #include<math.h>
 
 int main() {
+	
+	/*
+		Cálculo da tabuada.
+	*/
+	
 	int a, b, control = 0;
 	
 	printf("Digite um numero para calcular a tabuada: ");

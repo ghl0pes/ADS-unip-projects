@@ -1,6 +1,10 @@
 #include<stdio.h>
 
 int main() {
+	/*
+		Cálculo da sequência de Fibonacci.	
+	*/
+	
 	int i = 0, j = 1, k, limite;
 	
 	printf("Digite o limite do calculo de Fibonacci: ");

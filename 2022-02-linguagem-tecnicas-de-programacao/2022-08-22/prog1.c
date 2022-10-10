@@ -3,6 +3,11 @@
 #include<math.h>
 
 int main() {
+	/*
+		Programa que realiza funções matemáticas pré estabelecidas em sala de aula
+		Uso da lib math.h e aprendizado do uso de parênteses.
+	*/
+	
 	int a, b, c;
 	float x, y, z;
 	float c1, c2, c3, c4, c5, c6;

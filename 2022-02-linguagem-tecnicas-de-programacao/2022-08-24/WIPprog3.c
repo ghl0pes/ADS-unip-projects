@@ -3,6 +3,10 @@
 #include<math.h>
 
 int main() {
+	/*
+		Ordenação de 3 números lidos;
+		Programa não finalizado
+	*/
     int a, b, c, aux1,aux2,aux3;
 
     printf("Digite 3 numeros para ordena-los: ");
@@ -23,4 +27,6 @@ int main() {
         }
     }
 
+	system("pause");
+	return 0;
 }

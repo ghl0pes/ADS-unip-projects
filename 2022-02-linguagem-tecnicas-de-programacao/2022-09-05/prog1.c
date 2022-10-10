@@ -3,6 +3,11 @@
 #include<math.h>
 
 int main () {
+	
+	/*
+		Loop do primeiro numero até o segundo valor.
+	*/
+	
 	int a, b;
 	
 	printf("Entre com dois numeros em ordem crescente: ");

@@ -1,9 +1,13 @@
 #include<stdio.h>
 
 int main() {
+	/*
+		For loop com acrescimo	
+	*/
+	
 	int i, soma = 0;
 	
-	for (i = 1; i <= 100; i += 2) {
+	for (i = 1; i <= 100; i++) {
 		soma = soma + i;
 	}
 	

@@ -1,10 +1,16 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
-int main () {       //função principal
+
+int main () {
+	
+	/*
+		Programa da prova: Cálculo de votos numa eleição
+	*/
+	
 	int num;
 	float k1 = 0, k2 = 0, k3 = 0, k4 = 0, k5 = 0, k6 = 0;  //contadores e numero do voto
-	int i, j = 5;                               //acumuladores de loop
+	int i, j = 5;                               		   //acumuladores de loop
 	
 	printf("\n****Eleicoes****\n");
 	printf("\nDigite o numero do candidato\n");
