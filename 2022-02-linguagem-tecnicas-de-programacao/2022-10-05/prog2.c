@@ -18,7 +18,7 @@ int main () {
     for(i = 0; i < n; i++)
         somatorio = somatorio + pow((numeros[i] - media), 2);
     
-    desvioPadrao = sqrt(somatorio / n);
+    desvioPadrao = sqrt(somatorio / (n - 1);
     
     printf("Desvio padrao do array: %f", desvioPadrao);
 }
