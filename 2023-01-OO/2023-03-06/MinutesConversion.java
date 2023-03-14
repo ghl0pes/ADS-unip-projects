@@ -21,9 +21,7 @@ public class MinutesConversion {
     }
 
     private static int countHoursByMinutes (int minutes) {
-        MinutesConversion thisClass = new MinutesConversion();
-
-        return minutes / thisClass.minutesInHour;
+        return minutes / (new MinutesConversion()).minutesInHour;
     }
 
     private static int countDaysByMinutes (int minutes) {
