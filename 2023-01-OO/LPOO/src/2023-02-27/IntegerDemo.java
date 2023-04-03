@@ -24,6 +24,6 @@ public class IntegerDemo {
          * Variáveis do tipo byte suportam valores de -128 até 127,
          * como 12345 é maior que 127, o compilador gera erro.
          */
-        byteNumber = 12345; 
+        //byteNumber = 12345;
     }
 }
