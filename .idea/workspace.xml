@@ -16,6 +16,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="NamedScopeManager">
+    <scope name="LPOO" pattern="" />
+  </component>
   <component name="ProjectId" id="2NtUnmZyciPGuREEsPm9wsbk7jC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,10 +26,34 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Github/ADS/ADS-unip-projects"
+    "last_opened_file_path": "C:/Users/Aluno/Documents/GitHub/ADS-unip-projects",
+    "settings.editor.selected.configurable": "editor.preferences.import"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aluno\Documents\GitHub\ADS-unip-projects\2023-01-OO\LPOO\src" />
+      <recent name="C:\Users\Aluno\Documents\GitHub\ADS-unip-projects\2023-01-OO\LPOO\src\Lista06\Ex01" />
+      <recent name="C:\Users\Aluno\Documents\GitHub\ADS-unip-projects" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/2023-01-OO/LPOO/src/2023-03-06" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="ADS-unip-projects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
