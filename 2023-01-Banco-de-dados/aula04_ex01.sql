@@ -1,0 +1,36 @@
+CREATE DATABASE aula04_ex1;
+USE aula04_ex1;
+
+CREATE TABLE Cliente (
+	id INTEGER NOT NULL UNIQUE AUTO_INCREMENT,
+    nome VARCHAR(50) NOT NULL,
+    endereco VARCHAR(50) NOT NULL,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE Carro (
+	id INTEGER NOT NULL UNIQUE AUTO_INCREMENT,
+    registro varchar(50) NOT NULL,
+    marca varchar(15) NOT NULL,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE Apolice (
+	id INTEGER NOT NULL UNIQUE AUTO_INCREMENT,
+    valor FLOAT NOT NULL DEFAULT 0.0,
+    idCliente INTEGER NOT NULL,
+    idCarro INTEGER NOT NULL,
+    PRIMARY KEY (id),
+    FOREIGN KEY (idCliente) REFERENCES Cliente(id),
+    FOREIGN KEY (idCarro) REFERENCES Carro(id)
+);
+
+CREATE TABLE Acidentes(
+	id INTEGER NOT NULL UNIQUE AUTO_INCREMENT,
+    data DATE NOT NULL,
+    hora TIME NOT NULL,
+    idCarro INTEGER NOT NULL,
+    local VARCHAR(50),
+    PRIMARY KEY (id),
+    FOREIGN KEY (idCarro) REFERENCES Carro(id)
+);
