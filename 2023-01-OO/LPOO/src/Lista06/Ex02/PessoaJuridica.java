@@ -1,6 +1,6 @@
 package Lista06.Ex02;
 
-public class PessoaJuridica {
+public class PessoaJuridica extends Pessoa {
     private String cnpj;
 
     public String getCnpj() {

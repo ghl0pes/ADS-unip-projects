@@ -1,6 +1,6 @@
 package Lista06.Ex02;
 
-public class PessoaFisica {
+public class PessoaFisica extends Pessoa {
     private String cpf;
 
     public String getCpf() {

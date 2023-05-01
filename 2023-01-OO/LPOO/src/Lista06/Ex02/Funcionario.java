@@ -1,6 +1,6 @@
 package Lista06.Ex02;
 
-public class Funcionario {
+public class Funcionario extends PessoaFisica {
     private String cartao;
 
     public String getCartao() {
