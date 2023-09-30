@@ -1,0 +1,13 @@
+.esquerda {
+  background-color: green;
+  float: left;
+  width: 50%;
+  height: 600px;
+}
+
+.direita {
+  background-color: yellow;
+  float: right;
+  width: 50%;
+  height: 100%;
+}

@@ -1,0 +1,13 @@
+body {
+  background-color: red;
+}
+
+#titulo {
+  color: yellow;
+  font-weight: bold;
+}
+
+#texto {
+  color: black;
+  font-style: italic;
+}

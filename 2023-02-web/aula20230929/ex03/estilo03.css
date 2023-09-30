@@ -1,0 +1,29 @@
+.cabecalho {
+  background-color: lightsalmon;
+  width: 100%;
+  display: flex;
+}
+
+.botao {
+  width: 25%;
+  text-align: center;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.esquerda {
+  background-color: darkcyan;
+  color: black;
+  float: left;
+  width: 50%;
+}
+
+.direita {
+  background-color: green;
+  color: black;
+  float: right;
+  width: 50%;
+}
